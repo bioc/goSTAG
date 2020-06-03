@@ -20,7 +20,6 @@ Gene lists derived from the results of genomic analyses are rich in biological i
 The goSTAG package is available through Bioconductor and you can install it by running:
 
 ```{r, eval = FALSE}
-## try http:// if https:// URLs are not supported
 if (!requireNamespace("BiocManager", quietly=TRUE))
     install.packages("BiocManager")
 BiocManager::install("goSTAG")
